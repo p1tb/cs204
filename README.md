@@ -6,18 +6,18 @@
 * To delete a jedi from the list, do a DELETE request to */jedis/'id'*, no data's needed to do so
 * To edit, do a PUT request to */jedis/'id'* **name** and **surname** are needed
 
-__Main Page:
+__Main Page:__
 
-![main page](https://imgur.com/mS3c5Re)
+![main page](https://i.imgur.com/mS3c5Re.png)
 
-__Adding a Jedi:
+__Adding a Jedi:__
 
-![adding](https://imgur.com/ku0B1oo)
+![adding](https://i.imgur.com/ku0B1oo.png)
 
-__Getting Result:
+__Getting Result:__
 
-![result](https://imgur.com/iDp1M3T)
+![result](https://i.imgur.com/iDp1M3T.png)
 
-__List of Jedi Knights:
+__List of Jedi Knights:__
 
-![result](https://imgur.com/zX5GdC2)
+![all](https://i.imgur.com/zX5GdC2.png)
