@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="jedibg1.css">
+    <title>Add Jedi</title>
+</head>
+<body class="h-100">
+<div class="float-left">
+    <a href="/"><img src="https://icons-for-free.com/iconfiles/png/512/jedi+master+starwars+yoda+icon-1320166700243190687.png" alt="home" width="128" height="128"></a>
+</div>
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
+            <form action="#" class="formAdd" th:action="@{/add}" th:object="${jedi}" method="post">
+                <h1>Jedi DataBase</h1>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control name" th:field="*{name}" id="name" placeholder="Name..." name="name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname:</label>
+                    <input type="text" class="form-control surname" th:field="*{surname}" id="surname" placeholder="Surname..." name="surname">
+                </div>
+                <input type="submit" class="btn btn-primary btn-customized" value="Add Jedi">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

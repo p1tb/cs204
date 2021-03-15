@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <title>CS204</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body class="h-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="https://icons-for-free.com/iconfiles/png/512/jedi+master+starwars+yoda+icon-1320166700243190687.png" alt="logo" width="64" height="64"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/p1tb/cs204" target="_blank">Github</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/add">Add</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Welcome to Simple Restful Application! </h1>
+    <p>As it was said, there's a database that contains names and surnames of most famous Jedis of The Star Wars franchise.</p>
+
+    <table class="table table-striped table-responsive-md">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="jedi : ${jedis}">
+        <td th:text="${jedi.name}"></td>
+        <td th:text="${jedi.surname}"></td>
+    </tr>
+    </tbody>
+    </table>
+
+
+</div>
+</body>
+</html>

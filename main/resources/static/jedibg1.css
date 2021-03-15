@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    background-color: #273a65;
+    margin: 0;
+    background-image: url("https://i.redd.it/4w8vb03o2i261.jpg");
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 26px; font-weight: 300; color: #FF9B00; line-height: 46px; font-style: italic;
+}
+
+.formAdd {
+    padding: 10px 0;
+}
+
+.formAdd.description {
+    margin-bottom: 20px;
+    color: #f00;
+}
+
+.formAdd .form-group {
+    text-align: left;
+}
+
+.formAdd p.copyright {
+    margin-top: 40px;
+}
+
+.formAdd input[type="text"] {
+    background: none; border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: white;
+    box-shadow: none;
+}
+
+.formAdd input[type="text"]:focus {
+    outline: 0; background: none; border: 1px solid #a365bc; box-shadow: none;
+}
+
+.formAdd input[type="text"]::-moz-placeholder {
+    color: #bbb; font-style: italic;
+}
+
+.formAdd input[type="text"]:-ms-input-placeholder {
+    color: #bbb; font-style: italic;
+}
+
+.formAdd button.btn-customized:hover,
+.formAdd button.btn-customized:active,
+.formAdd button.btn-customized:focus,
+.formAdd button.btn-customized:active:focus,
+.formAdd button.btn-customized.active:focus,
+.formAdd button.btn.btn-primary:not(:disabled):not(.disabled):active,
+.formAdd button.btn.btn-primary:not(:disabled):not(.disabled):active:focus {
+    outline: 0; background: #8542a0; border: 0; color: #fff; box-shadow: none;
+}
+
+.formAdd input[type="text"]::-webkit-input-placeholder {
+    color: #bbb; font-style: italic;
+}
