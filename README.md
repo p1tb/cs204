@@ -9,6 +9,7 @@
 ![tutorial](https://i.imgur.com/7FhOVxh.png)
 [Video Tutorial](https://www.youtube.com/watch?v=8_n6Iu-C_U4)
 
+<a href="https://www.youtube.com/watch?v=8_n6Iu-C_U4" rel="some text">![Foo](http://www.google.com.au/images/nav_logo7.png)</a>
 
 __Main Page:__
 
