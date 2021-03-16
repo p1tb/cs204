@@ -6,10 +6,7 @@
 * To delete a jedi from the list, do a DELETE request to */jedis/'id'*, no data's needed to do so
 * To edit, do a PUT request to */jedis/'id'* **name** and **surname** are needed
 
-![tutorial](https://i.imgur.com/7FhOVxh.png)
-[Video Tutorial](https://www.youtube.com/watch?v=8_n6Iu-C_U4)
-
-<a href="https://www.youtube.com/watch?v=8_n6Iu-C_U4" rel="some text">![Foo](http://www.google.com.au/images/nav_logo7.png)</a>
+<a href="https://www.youtube.com/watch?v=8_n6Iu-C_U4" rel="Video Tutorial">![Foo](https://i.imgur.com/ajT3XjI.jpg)</a>
 
 __Main Page:__
 
